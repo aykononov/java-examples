@@ -1,6 +1,5 @@
-## Примеры Java
+## полезные примеры на Java
 
-здесь собираю полезные примеры на Java
+[package01/ListFilesDemo.java - Вывести списокв файлов](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/ListFiles01/ListFilesDemo.java "Посмотреть пример ...")
 
-[ListFiles01/ListFilesDemo.java - Вывести списокв файлов](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/ListFiles01/ListFilesDemo.java "Посмотреть пример Java")
-
+[package02/PhoneBookFromTextFile.java - Телефонная книга читает и записывает в текстовый файл](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/ListFiles01/ListFilesDemo.java "Посмотреть пример ...")
