@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 // Пример выводит все файлы в указанной директории + фильтр.
+// Фильтрация коллекций с использованием нескольких критериев.
 
 class ListFiles {
 
