@@ -6,8 +6,9 @@
 
 [package03/PhaseThreadDemo - Пример многопоточного приложения с применением класса Phaser](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package03/PhaseThreadDemo.java "Посмотреть пример Java")
 
-><details><summary>Класс Phaser ... </summary>
->
+<small>
+<details><summary>Класс Phaser ... </summary>
+
 >Класс *Phaser* синхронизирует потоки, он определяет объект синхронизации, который ждет, пока не завершится определенная фаза.  
 >Далее *Phaser* переходит к следующей стадии или фазе и снова ожидает ее завершения.
 >
@@ -26,6 +27,5 @@
 >int arriveAndDeregister():   сообщает о завершении всех фаз участником и снимает его с регистрации. Возвращает номер текущей фазы или отрицательное число, если синхронизатор Phaser завершил свою работу
 >int getPhase():              возвращает номер текущей фазы
 >```
->
->
-></details>
+
+</details></small>
