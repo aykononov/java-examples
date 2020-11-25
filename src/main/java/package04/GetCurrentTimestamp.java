@@ -1,5 +1,7 @@
 package package04;
 
+/* Получить текущую метку времени */
+
 import java.sql.Timestamp;
 
 public class GetCurrentTimestamp {
@@ -7,3 +9,7 @@ public class GetCurrentTimestamp {
         System.out.println(new Timestamp(System.currentTimeMillis()));
     }
 }
+
+/*---------------------
+2020-11-25 15:36:10.581
+ */
