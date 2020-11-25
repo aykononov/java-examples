@@ -14,18 +14,18 @@ class ListFiles {
         return Stream.of(new File(dir).listFiles())
                 //.filter(file -> !file.isDirectory())
                 .filter(file -> !file.isDirectory() &&  // фильтр: файл не является директорий
-                        file.getName().startsWith("ListFilesDemo")) // фильтр: имя файла начинается с "..."
+                        file.getName().startsWith("GetListFiles")) // фильтр: имя файла начинается с "..."
                 .map(File::getName)
                 .collect(Collectors.toSet());
     }
 }
 
-public class ListFilesDemo {
+public class GetListFiles {
 
     public static void main(String[] args) {
-        String dir ="src/main/java/ListFiles01/";
+        String dir ="src/main/java/package01/";
         ListFiles listFiles = new ListFiles();
-        System.out.println("Перечислить файлы в директории: " + dir + "\n..");
+        System.out.println("Получить список файлов в директории: " + dir + "\n..");
         for (String checkFile : listFiles.listFilesUsingJavaIO(dir)) {
             System.out.println(checkFile);
         }
@@ -33,7 +33,7 @@ public class ListFilesDemo {
 }
 
 /* -------------------------------------------
-Перечислить файлы в директории: src/main/java/ListFiles01/
+Перечислить файлы в директории: src/main/java/package01/
 ..
-ListFilesDemo.java
+GetListFiles.java
  */
