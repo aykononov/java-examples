@@ -41,7 +41,7 @@ class PhaseThread implements Runnable {
     }
 }
 
-class PhaseThreadDemo {
+class MultithreadingUsingPhaser {
     public static void main(String[] args) {
         Phaser phaser = new Phaser(1); // число 1 - главный поток
         new Thread(new PhaseThread(phaser, "PhaserThread 1")).start();
