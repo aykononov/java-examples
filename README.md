@@ -33,3 +33,5 @@
 </details></small>
 
 </small>
+
+[/package04/GetCurrentTimestamp - Получить текущую метку времени](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package04/GetCurrentTimestamp.java "Посмотреть пример ...")
