@@ -33,7 +33,7 @@ public class GetListFiles {
 }
 
 /* -------------------------------------------
-Перечислить файлы в директории: src/main/java/package01/
+Получить список файлов в директории: src/main/java/package01/
 ..
 GetListFiles.java
  */
