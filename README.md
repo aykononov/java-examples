@@ -12,6 +12,8 @@
 
 [GetCurrentTimestamp - Получить текущую метку времени](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package04/GetCurrentTimestamp.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package04/GetCurrentTimestamp.java")
 
+[FileEventListener - Мониторинг файлов с помощью пакета java.nio.file](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/FileEventListener.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/FileEventListener.java")
+
 </small>
 
 </small>
