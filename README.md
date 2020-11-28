@@ -14,6 +14,8 @@
 
 [FileEventListener - Мониторинг файлов с помощью пакета java.nio.file](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/FileEventListener.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/FileEventListener.java")
 
+[FileEventListenerHashMap - Еще один вариант мониторинга файлов](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/FileEventListenerHashMap.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/FileEventListenerHashMap.java")
+
 </small>
 
 </small>
