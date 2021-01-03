@@ -5,7 +5,7 @@ package package05;
 import java.io.IOException;
 import java.nio.file.*;
 
-public class WatcherServiceExample {
+class WatcherServiceExample {
     public static void main(String[] args) {
 
         try (WatchService watchService = FileSystems.getDefault().newWatchService()) {

@@ -19,14 +19,14 @@ class ListFiles {
     }
 }
 
-public class GetListFiles {
+class GetListFiles {
 
     public static void main(String[] args) {
         String dir ="src/main/java/package01/";
         ListFiles listFiles = new ListFiles();
         System.out.println("Получить список файлов в директории: " + dir + "\n..");
-        for (String checkFile : listFiles.listFilesUsingJavaIO(dir)) {
-            System.out.println(checkFile);
+        for (String file : listFiles.listFilesUsingJavaIO(dir)) {
+            System.out.println(file);
         }
     }
 }

@@ -5,7 +5,7 @@ import javax.imageio.IIOException;
 import java.io.*;
 import java.util.Properties;
 
-public class PhoneBookFromTextFile {
+class PhoneBookFromTextFile {
     public static void main(String[] args) throws IOException {
         Properties ht = new Properties();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
