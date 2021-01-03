@@ -12,9 +12,8 @@ class ListFiles {
 
     public Set<String> listFilesUsingJavaIO(String dir) {
         return Stream.of(new File(dir).listFiles())
-                //.filter(file -> !file.isDirectory())
                 .filter(file -> !file.isDirectory() &&  // фильтр: файл не является директорий
-                        file.getName().startsWith("GetListFiles")) // фильтр: имя файла начинается с "..."
+                        file.getName().startsWith("Get")) // фильтр: имя файла начинается с "Get..."
                 .map(File::getName)
                 .collect(Collectors.toSet());
     }

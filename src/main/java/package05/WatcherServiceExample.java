@@ -1,10 +1,11 @@
 package package05;
 
-/* Мониторинг файлов с помощью пакета java.nio.file */
+/* Мониторинг файлов с использованием службы наблюдения.
+*  WatchService - Служба наблюдения, которая отслеживает зарегистрированные объекты на предмет изменений и событий. */
 import java.io.IOException;
 import java.nio.file.*;
 
-public class FileWatcherService {
+public class WatcherServiceExample {
     public static void main(String[] args) {
 
         try (WatchService watchService = FileSystems.getDefault().newWatchService()) {

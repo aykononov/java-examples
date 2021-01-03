@@ -1,7 +1,6 @@
 package package02;
 /* Простая база данных телефонных номеров, построенная на основе
-чтения и записи текстового файла со списком свойств.
- */
+   чтения и записи текстового файла со списком свойств.  */
 import javax.imageio.IIOException;
 import java.io.*;
 import java.util.Properties;
