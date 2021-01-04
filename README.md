@@ -252,7 +252,7 @@ public class GetCurrentTimestamp {
 
 </details>
 
-<details><summary>Мониторинг файлов с использованием службы наблюденияgit ...</summary>
+<details><summary>Мониторинг файлов с использованием службы наблюдения ...</summary>
 
 ```java
 /* Мониторинг файлов с использованием службы наблюдения.
