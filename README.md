@@ -1,4 +1,4 @@
-## Полезные примеры на Java
+## Java - Полезные примеры
 
 <details><summary>Получить список файлов в директории ...</summary>
 
@@ -290,5 +290,116 @@ src\main\java\package05: ENTRY_DELETE: a.txt
 ```
 
 [WatcherServiceExample.java](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/WatcherServiceExample.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package05/WatcherServiceExample.java")
+
+</details>
+
+<details><summary>Перебор строки в цикле ...</summary>
+
+```java
+/* Перебор строки в цикле по символам. */
+public class StringForEach {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        System.out.print("Перебор строки в цикле: ");
+        for (char c : str.toCharArray()) {
+            System.out.print(c + " ");
+        }
+    }
+}
+/* ----------------------------------------
+Перебор строки в цикле: H e l l o   J a v a 
+ */
+```
+
+[StringForEach.java](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package06/StringForEach.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package06/StringForEach.java")
+
+</details>
+
+<details><summary>Переворот строки ...</summary>
+
+```java
+/* Переворот строки. */
+public class StringReverse {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        System.out.print("Переворот строки: ");
+        for (int i =  str.length()-1; i >= 0; i--) {
+            System.out.print(str.charAt(i));
+        }
+    }
+}
+/* -------------------------
+Переворот строки: avaJ olleH
+ */
+```
+
+[StringReverse.java](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package06/StringReverse.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package06/StringReverse.java")
+
+</details>
+
+<details><summary>Найти все числа кратные 9-ти ...</summary>
+
+```java
+// Найти все числа кратные 9-ти.
+public class ForContionue {
+    public static void main(String[] args) {
+        for (int i = 0; i < 82; i++) {
+            // Оператор деления по модулю % - возвращает остаток от деления.
+            if (i % 9 == 0) System.out.print(i + " ");
+        }
+    }
+}
+/* ------------------------
+0 9 18 27 36 45 54 63 72 81 
+ */
+```
+
+[ForContionue.java](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package07/ForContionue.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package07/ForContionue.java")
+
+</details>
+
+<details><summary>Склонение слов в зависимости от количества ...</summary>
+
+```java
+// Склонение слов в зависимости от количества.
+public class Declination {
+    
+    public static void main(String[] args) {
+        System.out.println("1 " + getDeclination(1));
+        System.out.println("2 " + getDeclination(2));
+        System.out.println("5 " + getDeclination(5));
+        System.out.println("21 " + getDeclination(21));
+        System.out.println("52 " + getDeclination(52));
+        System.out.println("105 " + getDeclination(105));
+    }
+    
+    private static String getDeclination(int count) {
+        String one = "день";
+        String tow = "дня";
+        String five = "дней";
+
+        if (count > 100) count %= 100;
+        if (count > 20) count %= 10;
+        switch (count) {
+            case 1 : return one;
+            case 2 :
+            case 3 :
+            case 4 : return tow;
+            default: return five;
+
+        }
+    }
+}
+/* ---------
+1 день
+2 дня
+5 дней
+21 день
+52 дня
+105 дней
+ */
+```
+
+[Declination.java](https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package07/Declination.java "https://github.com/aykononov/JavaExamples/tree/main/src/main/java/package07/Declination.java")
 
 </details>
